@@ -10,5 +10,13 @@
 
 void Controller :: start()
 {
-    cout << "framework" << endl;
+    for (int n = 0; n < numList.size(); n++)
+    {
+        cout << numList[n] << endl;
+    }
+    for (int n = 0; n < wordList.size(); n++)
+    {
+        words[n] = wordList[n];
+        cout << wordList[n] << endl;
+    }
 }
